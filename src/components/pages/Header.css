@@ -1,0 +1,10 @@
+.header {
+    height: 200px;
+}
+.header h1 {
+    margin-top: 0;
+    padding-top: 75px;
+    text-align: center;
+    color-scheme: rgb(148, 52, 68);
+    font-size: 3rem;
+}
