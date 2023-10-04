@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Footer() {
     return (
-        <Footer>
+        <footer>
             <div className="container">
                 <p>&copy; 2023 Harris Website All rights reserved.</p>
                 <ul className="social connections">
@@ -12,6 +12,6 @@ export default function Footer() {
 
                 </ul>
             </div>
-        </Footer>
+        </footer>
     );
 }
