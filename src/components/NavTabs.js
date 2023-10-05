@@ -1,14 +1,13 @@
 import React from 'react';
-import NavTabs from 'react';
-
-import { Link } from 'react-dom';
+import { Routes, Route, Link } from 'react-router-dom';
+import Header from './Header';
 
  function NavTabs() {
   return (
-      <Nav>
-        <ul>
+             <div>
+              <Header/>
           <li>
-            <Link to="/">About</Link>
+            <Link to="/about">About</Link>
           </li>
     <li>
       <Link to="/contact">Contact</Link>
@@ -17,12 +16,12 @@ import { Link } from 'react-dom';
       <Link to="/portfolio">Portfolio</Link>
     </li>
     <li>
-      <Link><a href="/components/Resume">Resume</a></Link>
+      <Link to="/Resume">Resume</Link>
     </li>
       
      
-      </ul>
-    </Nav>
+      </div>
+    
       );
 }
 
