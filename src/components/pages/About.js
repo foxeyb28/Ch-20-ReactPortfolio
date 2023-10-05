@@ -1,10 +1,11 @@
 import React from 'react';
-import myPhoto from '../..assets/imageOfAlicia';
+import imageOfAlicia from '../../assets/alicia.jpeg';
+
 export default function About() {
     return (
-      <div>
+      <div className="container">
         <h1>About Me</h1>
-        <img src={myPhoto} alt="Alicia" className='imageOfAlicia'/>
+        <img src={imageOfAlicia} alt="Alicia" className='Alicia'/>
 
         <p>
             My Name is Alicia. To start I have many talents that I like to call blessings. 

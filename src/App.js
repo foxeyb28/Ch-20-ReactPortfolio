@@ -1,13 +1,13 @@
 import React from 'react';
 import Header from './components/Header';
-import Footer from './components/Footer'
+import Footer from './components/Footer';
 import './App.css';
-import NavTabs from './components/NavTabs';
+//import NavTabs from './components/NavTabs';
 import { Routes, Route } from 'react-router-dom';
-import About from './components/About'
-import Contact from './components/Contact'
-import Resume from './components/Resume'
-import Portfolio from './components/Portfolio'
+import About from './components/pages/About';
+import Contact from './components/pages/Contact';
+import Resume from './components/pages/Resume';
+import Portfolio from './components/pages/Portfolio';
 
 function App() {
   return (
