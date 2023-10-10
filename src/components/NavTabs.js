@@ -3,8 +3,9 @@ import React from 'react';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
+import handlePageChange from './Project';
 
-function NavTabs({currentPage, handlePageChange}) {
+function NavTabs({ currentPage, handlePageChange, about, contact, portfolio, resume }) {
 
   return (
     
@@ -42,7 +43,7 @@ function NavTabs({currentPage, handlePageChange}) {
               onClick={() => handlePageChange('Resume')}
               className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
               >
-                Contact
+                Resume
               </a>
             </li>
           </ul>

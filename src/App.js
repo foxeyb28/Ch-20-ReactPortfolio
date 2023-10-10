@@ -9,15 +9,24 @@ import Contact from './components/pages/Contact';
 import Resume from './components/pages/Resume';
 import Portfolio from './components/pages/Portfolio';
 
-const App = () => 
+function App() {
+ return (
+      <div className="portfolio-app">
 
-      <Portfolio />;
-      <About />;
-      <Contact />;
-      <Resume />;
-      <Header />;
-      <Footer />;
-      <NavTabs />;
+<Header/>
+            <About />;
+            <Contact />;
+            <Resume />;
+            <Portfolio />;
+            <Footer />;
+            <NavTabs />;
+      </div>
+ );     
+} 
+
+           
+   
+
  
 
 
