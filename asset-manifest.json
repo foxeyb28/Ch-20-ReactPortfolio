@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Ch-20-ReactPortfolio/static/css/main.073c9b0a.css",
+    "main.js": "/Ch-20-ReactPortfolio/static/js/main.e304793b.js",
+    "static/media/movie review screen shot.png": "/Ch-20-ReactPortfolio/static/media/movie review screen shot.cf46dcd2bb42740ad1e8.png",
+    "static/media/alicia.jpeg": "/Ch-20-ReactPortfolio/static/media/alicia.59267d168e0f0f044e64.jpeg",
+    "static/media/shout out.png": "/Ch-20-ReactPortfolio/static/media/shout out.9b28843aec54943c02bf.png",
+    "index.html": "/Ch-20-ReactPortfolio/index.html",
+    "main.073c9b0a.css.map": "/Ch-20-ReactPortfolio/static/css/main.073c9b0a.css.map",
+    "main.e304793b.js.map": "/Ch-20-ReactPortfolio/static/js/main.e304793b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.e304793b.js"
+  ]
+}
